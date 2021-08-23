@@ -6,7 +6,7 @@ int main()
     char ch1,ch2;
    if(fp1==NULL||fp2==NULL)
    {
-       printf("file not exist\n");
+       printf("file doesnot exist\n");
        return 0;
    }
    else
@@ -15,11 +15,11 @@ int main()
        {   
            if(ch1!=ch2)
            {
-               printf("file are different\n");
+               printf("files are different\n");
                return(0);
            }
        }
-       printf("file are same\n");
+       printf("files are same\n");
    } 
    fclose(fp1);
    fclose(fp2); 
